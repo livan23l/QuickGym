@@ -8,7 +8,9 @@ El proyecto cuenta con la siguiente estructura:
   │   └── models/             Modelos de datos
   ├── config/                 Archivos de configuración
   │   ├── config.php          Configuración principal del sistema
-  │   └── database/           Configuración de la base de datos y migraciones
+  │   └── database/           Archivos relacionados con la base de datos
+  │       ├── migrations/     Migraciones de la base de datos
+  │       └── database.php    Configuración de la base de datos
   ├── doc/                    Documentación (diagramas y manuales)
   ├── public/                 Archivos públicos
   │   ├── css/                Archivos CSS
@@ -21,6 +23,9 @@ El proyecto cuenta con la siguiente estructura:
   │   ├── components/         Componentes del sistema (plantillas)
   │   ├── sass/               Archivos SASS del proyecto
   │   └── views/              Vistas del proyecto
+  ├── routes/                 Configuraciones relacionadas a las rutas
+  │   ├── web.php             Archivo que contiene las rutas web
+  │   └── router.php          Archivo enrutador
   ├── .env                    Variables de entorno
   ├── .env.example            Archivo de ejemplo para variables de entorno
   ├── .gitignore              Archivos ignorados por Git
